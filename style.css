@@ -8,11 +8,15 @@ h1{
 h3{
     font-size: 40px;
 }
+h2{
+    font-size: 50px;
+}
 .orange-col{
     color: orange;
 }
-section{
+.flex-area{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 100%;
@@ -35,4 +39,36 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    margin: 0 30px 0 50px;
+    padding-left:40px;
+    width: 40%;
+
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#one{
+    border-left: 5px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+#two{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, yellow);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    background-color: yellow;
 }
