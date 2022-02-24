@@ -1,0 +1,38 @@
+body{
+    font-family: 'Redressed', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 70px;
+}
+h3{
+    font-size: 40px;
+}
+.orange-col{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 100%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width p{
+    font-size: 25px;
+}
+.hire{
+    background-image: linear-gradient(red, orange);
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
